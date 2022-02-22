@@ -573,6 +573,7 @@ new Chart("myChart", {
       display: true,
       text: 'Tide Range (Dover)',
 	  fontSize: 20,
+	  fontColor: "white"
 		},
 	elements: {
                     point:{
@@ -585,10 +586,12 @@ new Chart("myChart", {
 			scaleLabel: {
                 display: true,
                 labelString: 'Date',
-				fontSize: 20
+				fontSize: 20,
+				fontColor: "white"
 				},
 			ticks: {
 				fontSize: 15,
+				fontColor: "white"
                 }
 			}],
 		yAxes: [{
@@ -596,13 +599,15 @@ new Chart("myChart", {
 			scaleLabel: {
                 display: true,
                 labelString: 'Percent Springs',
-				fontSize: 20
+				fontSize: 20,
+				fontColor: "white"
 				},
 			ticks: {
 				beginAtZero: true,
                 //steps: 12,
                 stepValue: 10,
 				fontSize: 15,
+				fontColor: "white",
                 max: 120,
 				min: -20
 				}
